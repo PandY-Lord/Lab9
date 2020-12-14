@@ -1,9 +1,10 @@
 @extends("layouts.app")
 
 @section("content")
-    <h1 class="text-center">Notes</h1>
+    <h1 class="text-center">The 100 Most Famous Quotes of All Time</h1>
+    <h1 class="text-center">The world is much easier than you think</h1>
     <div class="row justify-content-center">
-        <div class="col-md-5">
+        <div class="col-md-7">
             <form method="GET" action="{{ route('search') }}">
                 <div style="display: flex; flex-direction:row">
                     <input class="form-control" type="text" name="title">

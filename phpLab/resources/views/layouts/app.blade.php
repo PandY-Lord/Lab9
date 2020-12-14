@@ -21,7 +21,7 @@
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+        <nav class="navbar navbar-expand-md navbar-collapse bg-green shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
                     {{ config('app.name', 'Laravel') }}
@@ -33,11 +33,11 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item mr-3"><a class="nav-link" href="{{ route('notes') }}">Notes</a></li>
-                        <li class="nav-item mr-3"><a class="nav-link" href="{{ route('add') }}">Add note</a></li>
+                        <li class="nav-item mr-3"><a class="nav-link" href="{{ route('notes') }}">Quotes</a></li>
+                        <li class="nav-item mr-3"><a class="nav-link" href="{{ route('add') }}">Add quotes</a></li>
                         @auth
                             @if(Auth::user()->email == "admin@mail.ru")
-                                <li class="nav-item mr-3">Now you have power over notes</li>
+                                <li class="nav-item mr-3">Now you are here god</li>
                             @endif
                         @endauth
                     </ul>
