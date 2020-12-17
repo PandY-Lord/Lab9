@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47ed959e-aac6-4392-8a0b-70adbd875a83" name="Default Changelist" comment="Added files from gitignore">
+    <list default="true" id="47ed959e-aac6-4392-8a0b-70adbd875a83" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.phar" beforeDir="false" afterPath="$PROJECT_DIR$/composer.phar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpLab/artisan" beforeDir="false" afterPath="$PROJECT_DIR$/phpLab/artisan" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpLab/resources/views/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/phpLab/resources/views/add.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpLab/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/phpLab/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpLab/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/phpLab/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpLab/resources/views/notes.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/phpLab/resources/views/notes.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpLab/app/Http/Controllers/AddNoteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/phpLab/app/Http/Controllers/AddNoteController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/phpLab/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/phpLab/resources/views/welcome.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -162,6 +157,10 @@
       <workItem from="1607819124880" duration="3178000" />
       <workItem from="1607872629033" duration="7162000" />
       <workItem from="1607945678233" duration="744000" />
+      <workItem from="1607967375344" duration="1212000" />
+      <workItem from="1608037490735" duration="22000" />
+      <workItem from="1608205302448" duration="1718000" />
+      <workItem from="1608223430177" duration="304000" />
     </task>
     <task id="LOCAL-00001" summary="Small fix">
       <created>1607818228485</created>
@@ -184,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607822341378</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Create project">
+      <created>1607967455347</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607967455347</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +212,7 @@
     <MESSAGE value="Small fix" />
     <MESSAGE value="Added search" />
     <MESSAGE value="Added files from gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added files from gitignore" />
+    <MESSAGE value="Create project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create project" />
   </component>
 </project>

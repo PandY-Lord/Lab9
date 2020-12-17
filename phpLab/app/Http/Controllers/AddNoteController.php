@@ -9,7 +9,7 @@ class AddNoteController extends Controller
 {
     public function add(Request $request) {
         $valid = $request->validate([
-            'title' => 'required|max:20',
+            'title' => 'required|max:50',
             'text' => 'required|max:255'
         ]);
 
